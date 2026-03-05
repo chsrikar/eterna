@@ -160,7 +160,6 @@ export default function CartPage() {
               </motion.div>
 
               {/* Order Summary */}
-            <div className="lg:col-span-1">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
